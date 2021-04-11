@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitleDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dim_50"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:padding="@dimen/dim_10"
+        android:textColor="@color/white"
+        android:text="@string/msg_select_img"
+        android:textSize="@dimen/text_15_sp" />
+
+    <TextView
+        android:id="@+id/tvSelectOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_16"
+        android:text="@string/lbl_1_image"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim_16"
+        android:text="@string/lbl_2_images"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

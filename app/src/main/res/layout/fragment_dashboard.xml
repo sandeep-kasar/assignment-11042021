@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_16"
+    tools:context=".ui.adhaar.AdhaarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_select_the_aadhaar_info">
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dim_16"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/tvOne"
+                    android:layout_weight="1"
+                    android:text="Sample 1"
+                    android:gravity="center"
+                    android:background="@color/light_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TextView>
+                <TextView
+                    android:id="@+id/tvTwo"
+                    android:layout_weight="1"
+                    android:text="Sample 2"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dim_10"
+                    android:background="@color/light_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TextView>
+
+                <TextView
+                    android:id="@+id/tvThree"
+                    android:layout_weight="1"
+                    android:text="Sample 3"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dim_10"
+                    android:background="@color/light_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TextView>
+
+                <TextView
+                    android:id="@+id/tvFour"
+                    android:layout_weight="1"
+                    android:text="Sample 4"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dim_10"
+                    android:background="@color/light_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TextView>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="@dimen/dim_10"
+                android:id="@+id/edtSample"
+                android:textSize="@dimen/text_13_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim_200dp">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnProcess"
+                android:text="@string/lbl_process"
+                android:layout_marginTop="@dimen/dim_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvAdhaarNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

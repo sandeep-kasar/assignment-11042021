@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">XbizAssignment</string>
+    <string name="lbl_find_aadhar">Find Aadhar</string>
+    <string name="lbl_select_image">Select Image</string>
+    <string name="lbl_result_list">Result List</string>
+    <string name="lbl_search">Search</string>
+    <string name="war_enter_pin">Please enter pin-code</string>
+    <string name="hint_enter_the_pin_code">Enter the pin code</string>
+    <string name="lbl_add_n_photo">Add Image</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="msg_select_img">How many images do you have to select ?</string>
+    <string name="lbl_2_images">2 Images</string>
+    <string name="lbl_1_image">1 Image</string>
+    <string name="lbl_select_the_aadhaar_info">Select the sample aadhaar info to process :</string>
+    <string name="lbl_process">Process</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_find"
+        android:title="@string/lbl_find_aadhar" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_image"
+        android:title="@string/lbl_select_image" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_view_list_button"
+        android:title="@string/lbl_result_list" />
+
+</menu>
